@@ -1,7 +1,7 @@
 /**
  * Main JS file for Casper behaviours
  */
-
+  
 /* globals jQuery, document */
 (function ($, sr, undefined) {
     "use strict";

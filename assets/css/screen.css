@@ -117,7 +117,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "Open Sans", sans-serif;
+/*    font-family: "casper-icons", "Open Sans", sans-serif;*/
+	font-family: "casper-icons", "Adelle Sans", sans-serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -176,7 +177,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: "Adelle", serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -202,7 +203,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Adelle Sans", sans-serif;
 }
 
 h1 {
@@ -495,6 +496,22 @@ margin on the iframe, cause it breaks stuff. */
     font-family: 'Open Sans', sans-serif;
 }
 
+.up-header {
+	position: relative;
+}
+
+.up-header .blog-logo-container {
+	width: 20%;
+	padding: 50px;
+	box-sizing: border-box;
+	background: #ffff00;
+}
+
+.up-header .blog-logo-container img {
+	display: block;
+	width: 100%;
+}
+
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
     display: block;
@@ -658,7 +675,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Adelle Sans", sans-serif;
     color: #fff;
 }
 
@@ -667,7 +684,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "Adelle Sans", serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -719,12 +736,13 @@ margin on the iframe, cause it breaks stuff. */
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+	text-align: center;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 .post:after {
-    display: block;
+    display: none;
     content: "";
     width: 7px;
     height: 7px;
@@ -740,10 +758,13 @@ margin on the iframe, cause it breaks stuff. */
 
 body:not(.post-template) .post-title {
     font-size: 3.6rem;
+	font-family: "Adelle";
+	font-weight: 100;
 }
 
 .post-title a {
     text-decoration: none;
+	border-bottom: 2px solid yellow;
 }
 
 .post-excerpt p {
@@ -846,6 +867,8 @@ body:not(.post-template) .post-title {
 
 .post-template .post-title {
     margin-bottom: 0;
+	font-weight: 100;
+	font-family: "Adelle";
 }
 
 .post-template .post-meta {

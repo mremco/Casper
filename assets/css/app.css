@@ -1666,5 +1666,16 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+.loop-post {
+  position: relative; }
+  .loop-post .post-title-avatar-container {
+    position: absolute;
+    top: 0;
+    left: -120px;
+    width: 80px; }
+    .loop-post .post-title-avatar-container > img {
+      display: block;
+      width: 100%;
+      border-radius: 100%; }
 
-/*# sourceMappingURL=screen.css.map */
+/*# sourceMappingURL=app.css.map */

@@ -17,9 +17,19 @@
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 --}}
-<header class="up-header">
+<header class="up-header clearfix">
 	<div class="blog-logo-container">
 		{{#if @blog.logo}}<a class="" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+	</div>
+	
+	<div class="slogan-container">
+		{{!--<div class="cover-container" style="background-image: url({{@blog.cover}})">--}}
+		<div class="cover-container"></div>
+		<p class="slogan-description">
+			<span>{{@blog.description}}</span>
+			<span class="second">Visions from the assymetry</span>
+		</p>
+		{{!<h3 class="slogan">Visions from the assymetry</h3>}}
 	</div>
 </header>
 

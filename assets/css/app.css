@@ -921,10 +921,15 @@ body:not(.post-template) .post-title {
 .post-template .post:after {
   display: none; }
 
-.post-content h4 {
-  margin-bottom: 1em;
-  line-height: 1.5;
-  font-weight: 300; }
+.post-content {
+  font-size: 21px;
+  line-height: 1.5em; }
+  .post-content h3,
+  .post-content h4,
+  .post-content h5 {
+    margin-bottom: 1em;
+    line-height: 1.5;
+    font-weight: 300; }
 
 /* Keep images centred and within the bounds of the post-width */
 .post-content img {
@@ -1672,10 +1677,12 @@ body:not(.post-template) .post-title {
     position: absolute;
     top: 0;
     left: -120px;
-    width: 80px; }
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 100px; }
     .loop-post .post-title-avatar-container > img {
       display: block;
-      width: 100%;
-      border-radius: 100px; }
+      width: 100%; }
 
 /*# sourceMappingURL=app.css.map */

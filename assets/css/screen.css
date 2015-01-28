@@ -921,10 +921,15 @@ body:not(.post-template) .post-title {
 .post-template .post:after {
   display: none; }
 
-.post-content h4 {
-  margin-bottom: 1em;
-  line-height: 1.5;
-  font-weight: 300; }
+.post-content {
+  font-size: 21px;
+  line-height: 1.5em; }
+  .post-content h3,
+  .post-content h4,
+  .post-content h5 {
+    margin-bottom: 1em;
+    line-height: 1.5;
+    font-weight: 300; }
 
 /* Keep images centred and within the bounds of the post-width */
 .post-content img {
